@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .head{
+            
+            
+            display: flex;
+            height: 50px;
+            margin-left: 220px;
+            margin-right: 220px;
+            justify-content: space-between;
+            border-bottom: 2px solid black;
+        }
+        
+        .child{
+            font-size: 15px;
+            
+            
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+        }
+        .items{
+            margin-top: 20px;
+            background-color:rgb(239, 244, 249);
+            width: 320px;
+            height: 400px;
+            border-radius: 5px;
+            
+        }
+        .image{
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            width: 320px;
+            height: 220px;
+        }
+        .b1{
+            
+            background-color: blueviolet;
+            padding: 8px 18px;
+            border: none;
+            position: absolute;
+            top: 12%;
+            left: 445px;
+        }
+        .b2{
+            background-color: blueviolet;
+            border: none;
+            padding: 8px 18px;
+            position: absolute;
+            top: 12%;
+            left: 805px;
+        }
+        .b3{
+            background-color: blueviolet;
+            border: none;
+            padding: 8px 18px;
+            position: absolute;
+            top: 12%;
+            left: 1165px;
+        }
+        .icon{
+            margin: 10px 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+    </style>
+    <div class="head">
+        <h3><i class="fa-solid fa-book" style="margin-right: 3px;"></i>COOKING BLOGS</h3>
+        <div class="child" ><h4>See All</h4></div>
+    </div>
+    <div class="container">
+        <div class="items"><img src="salad.jpg" alt="salad" class="image">
+        <button class="b1">Cooking</button>
+        <h3 style="margin: 5px 15px;">Simplest Salad Recipe Ever</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae maxime ut, nulla praesentium possimus recusandae tempora fugit nesciunt quo?</p>
+        <div class="icon">
+            <a><i class="fa-solid fa-clock"></i>10 hours ago</a>
+            <a><i class="fa-regular fa-comment"></i>39 comments</a>
+        </div>
+        </div>
+        <div class="items"><img src="burger.jpg" alt="burger" class="image">
+        <button class="b2">Cooking</button>
+        <h3 style="margin: 5px 15px;">Best Fastfood Ideas (Yummy)</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consequatur repudiandae architecto eaque veritatis officia perferendis iusto ipsum.
+        </p>
+        <div class="icon">
+            <a><i class="fa-solid fa-clock"></i>10 days ago</a>
+            <a><i class="fa-regular fa-comment"></i>65 comments</a>
+        </div>
+        </div>
+        <div class="items">
+        <button class="b3">Cooking</button><img src="salad1.jpg" alt="salad1" class="image">
+        <h3 style="margin: 5px 15px;">Why to eat Salad?</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam consequuntur similique mollitia nihil dignissimos corporis, non iusto perferendis.</p>
+        <div class="icon">
+            <a><i class="fa-solid fa-clock"></i>16 mins ago</a>
+            <a><i class="fa-regular fa-comment"></i>109 comments</a>
+        </div>
+        </div>
+        
+    </div>
+</body>
+</html>
